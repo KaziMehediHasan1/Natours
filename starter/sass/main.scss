@@ -10,6 +10,8 @@ Dark green: #28b485
 $color-primary:#55c57a;
 $color-primary-light:#7ed56f;
 $color-primary-dark:#28b485;
+$color-grey-dark:#777;
+$color-white:#fff;
 
 * {
   margin: 0;
@@ -27,7 +29,7 @@ body {
   font-weight: 400;
   /* font-size: 16px; */
   line-height: 1.7;
-  color:#777;
+  color:$color-grey-dark;
   padding: 3rem;
 }
 
@@ -35,7 +37,7 @@ body {
     height: 95vh;
     background-image:linear-gradient(
     to right bottom,
-    $color-primary-light,$color-primary-dark), 
+    rgba($color-primary-light,0.8),rgba($color-primary-dark,0.8)), 
     url(../img//hero.jpg);
     background-size: cover;
     background-position: top;
@@ -67,7 +69,7 @@ body {
 }
 
 .heading-primary{
-  color:#fff;
+  color:$color-white;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem;
