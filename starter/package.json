@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "landing page",
+  "homepage": "https://github.com/KaziMehediHasan1/Natours#readme",
+  "bugs": {
+    "url": "https://github.com/KaziMehediHasan1/Natours/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaziMehediHasan1/Natours.git"
+  },
+  "license": "ISC",
+  "author": "kazi mehedi hasan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass sass/main.scss css/style.css"
+  },
+  "devDependencies": {
+    "sass": "^1.97.1"
+  }
+}
