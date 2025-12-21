@@ -1,14 +1,24 @@
+// Abstracts path
 @import "abstracts/_functions";
 @import "abstracts/_mixins";
 @import "abstracts/_variables";
+
+// Base path
 @import "base/_base.scss";
 @import "base/_animation";
 @import "base/_typography";
 @import "base/_utilities.scss";
-@import "pages/_home.scss";
+
+// Layout path
 @import "layout/_header.scss";
+
+// Pages path
 @import "pages/_home.scss";
+@import "pages/_home.scss";
+
+// components path
 @import "components/_button.scss";
+
 
 
 
