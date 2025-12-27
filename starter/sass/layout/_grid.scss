@@ -1,8 +1,8 @@
 .row {
     width:$grid-width;
-    background-color: #eee;
+    // background-color: #eee;
     margin: 0 auto;
-    color:#fff;
+    // color:#fff;
 
     // এই গ্রুপের শেষ মেম্বারটি বাদে বাকি সবার ওপর এই স্টাইলটি প্রয়োগ করো।
     &:not(:last-child) {
@@ -13,7 +13,7 @@
 
  [class^="col-"] {
         float: left;
-        background-color: orangered; 
+        // background-color: orangered; 
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
         }
